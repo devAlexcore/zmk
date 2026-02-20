@@ -2,15 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: nickcoutsos
-      url-base: https://github.com/nickcoutsos
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-nice-nano
-      remote: nickcoutsos
-      revision: main
   self:
     path: config
